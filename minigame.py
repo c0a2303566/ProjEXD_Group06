@@ -183,7 +183,7 @@ def clicker_main():
             elif event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_s and not game_clear:
                     show_shop = not show_shop
-                if event.key == pygame.escape:
+                if event.key == pygame.K_ESCAPE:
                     return
 
             elif event.type == AUTO_EVENT and not game_clear:
